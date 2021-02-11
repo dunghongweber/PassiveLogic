@@ -1,0 +1,56 @@
+.backboard {
+  width: 75px;
+  height: 418px;
+  margin: auto;
+  padding-top: 10px;
+  background: linear-gradient(#e5e3e5, #c5c3c5, #e5e3e5, #c5c3c5, #e5e3e5);
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  color: rgb(35, 41, 35);
+  font-size: 14px;
+  text-shadow: 0 0 1px #777, 1px 0.5px 0 #000;
+  text-align: center;
+  box-sizing: border-box;
+}
+.tube {
+  width: 7px;
+  height: 300px;
+  margin: auto;
+  background: linear-gradient(to right, #0a0, #dfd, #dfd, #dfd, #0a0);
+  border: 1px solid #aaa;
+  border-bottom: 0;
+  border-radius: 4px;
+}
+#vein {
+  width: 3px;
+
+  height: 5px;
+  margin: 292px 0 0 1px;
+
+  background-color: #e00;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  /* animation-name: alcohol; */
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes alcohol {
+  from {
+    height: 5px;
+    margin: 292px 0 0 2px;
+  }
+  to {
+    height: 295px;
+    margin: 2px 0 0 2px;
+  }
+}
+.bowl {
+  width: 18px;
+  height: 18px;
+  margin: -3px auto 0 auto;
+  background-color: #e00;
+  border: 1px solid #aaa;
+  border-top: 0;
+  border-radius: 50px;
+}
